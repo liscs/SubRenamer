@@ -1,10 +1,13 @@
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using SubRenamer.Properties;
+using SubRenamer.StringLocalization;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Resources;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using static SubRenamer.Global;
@@ -38,13 +41,14 @@ namespace SubRenamer
 
         private void UpdateWinTitle()
         {
+            var rm = _string.ResourceManager;
             if (!AppSettings.RenameVideo)
             {
-                Text = "字幕文件批量改名 (SubRenamer)";
+                Text = rm.GetString("title_subrenamer");
             }
             else
             {
-                Text = "视频文件批量改名 (VideoRenamer)";
+                Text = rm.GetString("title_videorenamer");
             }
             Text += $" {Program.GetVersionStr()}"; // 追加版本号
         }
@@ -58,9 +62,10 @@ namespace SubRenamer
                 Multiselect = true,
             })
             {
+                var rm = _string.ResourceManager;
                 fbd.Filters.Add(new CommonFileDialogFilter
                 {
-                    DisplayName = "视频或字幕文件",
+                    DisplayName = rm.GetString("video_or_subtitle_files"),
                     ShowExtensions = false
                 });
                 var result = fbd.ShowDialog();
@@ -191,29 +196,30 @@ namespace SubRenamer
                 if (FileListUi.FocusedItem != null
                     && FileListUi.Bounds.Contains(e.Location) == true)
                 {
+                    var rm = _string.ResourceManager;
                     var selectedItem = (VsItem)FileListUi.SelectedItems[0].Tag;
                     ContextMenu m = new ContextMenu();
                     var items = m.MenuItems;
-                    items.Add(new MenuItem("编辑", (e1, s1) => EditListSelectedItems(), Shortcut.F3));
+                    items.Add(new MenuItem(rm.GetString("menu_edit"), (e1, s1) => EditListSelectedItems(), Shortcut.F3));
                     items.Add("-");
-                    items.Add(new MenuItem("删除", (e1, s1) => RemoveListSelectedItems(), Shortcut.Del));
-                    var discardVideo = new MenuItem("丢弃视频", (e1, s1) => DiscardListSelectedItemsFile(AppFileType.Video));
-                    var discardSub = new MenuItem("丢弃字幕", (e1, s1) => DiscardListSelectedItemsFile(AppFileType.Sub));
+                    items.Add(new MenuItem(rm.GetString("menu_remove"), (e1, s1) => RemoveListSelectedItems(), Shortcut.Del));
+                    var discardVideo = new MenuItem(rm.GetString("menu_discard_video"), (e1, s1) => DiscardListSelectedItemsFile(AppFileType.Video));
+                    var discardSub = new MenuItem(rm.GetString("menu_discard_sub"), (e1, s1) => DiscardListSelectedItemsFile(AppFileType.Sub));
                     if (string.IsNullOrWhiteSpace(selectedItem.Video)) discardVideo.Enabled = false;
                     if (string.IsNullOrWhiteSpace(selectedItem.Sub)) discardSub.Enabled = false;
                     items.Add(discardVideo);
                     items.Add(discardSub);
                     items.Add("-");
-                    items.Add(new MenuItem("全选", (e1, s1) => SelectListAll(), Shortcut.CtrlA));
+                    items.Add(new MenuItem(rm.GetString("menu_select_all"), (e1, s1) => SelectListAll(), Shortcut.CtrlA));
                     items.Add("-");
-                    var openVideoFolder = new MenuItem("打开视频文件夹", (e1, s1) => OpenExplorerFile(selectedItem.Video));
-                    var openSubFolder = new MenuItem("打开字幕文件夹", (e1, s1) => OpenExplorerFile(selectedItem.Sub));
+                    var openVideoFolder = new MenuItem(rm.GetString("menu_open_video_folder"), (e1, s1) => OpenExplorerFile(selectedItem.Video));
+                    var openSubFolder = new MenuItem(rm.GetString("menu_open_sub_folder"), (e1, s1) => OpenExplorerFile(selectedItem.Sub));
                     if (string.IsNullOrWhiteSpace(selectedItem.Video)) openVideoFolder.Enabled = false;
                     if (string.IsNullOrWhiteSpace(selectedItem.Sub)) openSubFolder.Enabled = false;
                     items.Add(openVideoFolder);
                     items.Add(openSubFolder);
                     items.Add("-");
-                    items.Add(new MenuItem("复制改名命令至剪切板", (e1, s1) => CopyRenameCommand()));
+                    items.Add(new MenuItem(rm.GetString("menu_copy_clipboard"), (e1, s1) => CopyRenameCommand()));
                     m.Show(FileListUi, new Point(e.X, e.Y));
                 }
             }
@@ -246,12 +252,13 @@ namespace SubRenamer
         // 清空列表
         private void ClearListAll()
         {
+            var rm = _string.ResourceManager;
             if (VsList.Count() == 0 && FileListUi.Items.Count == 0)
                 return;
 
             if (AppSettings.ListItemRemovePrompt)
             {
-                var result = MessageBox.Show("你要清空列表吗？", "清空列表", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                var result = MessageBox.Show(rm.GetString("clearconfirm1"), rm.GetString("clearconfirm2"), MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result == DialogResult.No) return;
             }
 
@@ -265,13 +272,15 @@ namespace SubRenamer
         {
             if (FileListUi.SelectedItems.Count <= 0) return;
 
+            var LocRM = _string.ResourceManager;
             string label = "";
-            if (FileType.Equals(AppFileType.Video)) label = "视频";
-            else if (FileType.Equals(AppFileType.Sub)) label = "字幕";
+            if (FileType.Equals(AppFileType.Video)) label = LocRM.GetString("video");
+            else if (FileType.Equals(AppFileType.Sub)) label = LocRM.GetString("subtitle");
 
             if (AppSettings.ListItemRemovePrompt)
             {
-                var result = MessageBox.Show($"你要丢弃选定项目的{label}吗？源文件不会被删除", $"丢弃所选项的{label}", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                var result = MessageBox.Show($"{LocRM.GetString("dropconfirm1")}{label}{LocRM.GetString("dropconfirm2")}"
+                    , $"{LocRM.GetString("dropconfirm3")}{label}", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result == DialogResult.No) return;
             }
 
@@ -294,11 +303,12 @@ namespace SubRenamer
         // 删除选定的项目
         private void RemoveListSelectedItems()
         {
+            var rm = _string.ResourceManager;
             if (FileListUi.SelectedItems.Count <= 0) return;
 
             if (AppSettings.ListItemRemovePrompt)
             {
-                var result = MessageBox.Show("你要删除选定的项目吗？", "删除所选项", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                var result = MessageBox.Show(rm.GetString("removeconfirm1"), rm.GetString("removeconfirm2"), MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result == DialogResult.No) return;
             }
 
@@ -422,7 +432,5 @@ namespace SubRenamer
             string args = $"/select, \"{filePath}\"";
             Process.Start("explorer.exe", args);
         }
-
-
     }
 }

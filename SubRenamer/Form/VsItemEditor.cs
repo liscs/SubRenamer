@@ -1,12 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using static SubRenamer.Global;
@@ -171,7 +164,7 @@ namespace SubRenamer
                 if (pos < vsList.Count)
                     vsItem = vsList[pos];
                 else
-                    vsItem = vsList[pos-1];
+                    vsItem = vsList[pos - 1];
                 RefreshByVsItem();
             }
             else
@@ -201,7 +194,31 @@ namespace SubRenamer
 
         private void VsItemEditor_FormClosed(object sender, FormClosedEventArgs e)
         {
+            MergeSameKeyVsItem();
             mainForm.RefreshFileListUi();
         }
+        private void MergeSameKeyVsItem()
+        {
+            for (int i = 0; i < vsList.Count; i++)
+                for (int j = i; j < vsList.Count; j++)
+                {
+                    if (vsList[i].MatchKey == vsList[j].MatchKey)
+                    {
+                        if ((string.IsNullOrEmpty(vsList[i].Video) && string.IsNullOrEmpty(vsList[j].Sub)) ||
+                            (string.IsNullOrEmpty(vsList[i].Sub) && string.IsNullOrEmpty(vsList[j].Video)))
+                        {
+                            vsList[i] = MergeTwoSameKeyItem(vsList[i], vsList[j]);
+                            vsList.RemoveAt(j);
+                        }
+                    }
+                }
+        }
+        private VsItem MergeTwoSameKeyItem(VsItem a, VsItem b)
+        {
+            if (string.IsNullOrEmpty(a.Video)) { a.Video = b.Video; }
+            else { a.Sub = b.Sub; }
+            return a;
+        }
+
     }
 }

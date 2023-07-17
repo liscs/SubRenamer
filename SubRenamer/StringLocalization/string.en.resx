@@ -117,4 +117,106 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="clearconfirm1" xml:space="preserve">
+    <value>Do you want to clear the list?</value>
+  </data>
+  <data name="clearconfirm2" xml:space="preserve">
+    <value>Clear the list</value>
+  </data>
+  <data name="dropconfirm1" xml:space="preserve">
+    <value>Sure to discard the selected </value>
+  </data>
+  <data name="dropconfirm2" xml:space="preserve">
+    <value>? Source files will not be deleted</value>
+  </data>
+  <data name="dropconfirm3" xml:space="preserve">
+    <value>discard the selected </value>
+  </data>
+  <data name="input_please_start_with_dot" xml:space="preserve">
+    <value>Please start with . !</value>
+  </data>
+  <data name="input_sub_ex" xml:space="preserve">
+    <value>Enter the subtitle extension (starts with . )</value>
+  </data>
+  <data name="input_video_ex" xml:space="preserve">
+    <value>Enter the video extension (starts with . )</value>
+  </data>
+  <data name="menu_copy_clipboard" xml:space="preserve">
+    <value>Copy the rename command to clipboard</value>
+  </data>
+  <data name="menu_discard_sub" xml:space="preserve">
+    <value>Discard sub</value>
+  </data>
+  <data name="menu_discard_video" xml:space="preserve">
+    <value>Discard video</value>
+  </data>
+  <data name="menu_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="menu_open_sub_folder" xml:space="preserve">
+    <value>Open subtitle folder</value>
+  </data>
+  <data name="menu_open_video_folder" xml:space="preserve">
+    <value>Open video folder</value>
+  </data>
+  <data name="menu_remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="menu_select_all" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="preview_filename" xml:space="preserve">
+    <value> Filename</value>
+  </data>
+  <data name="preview_modify" xml:space="preserve">
+    <value>Replace with</value>
+  </data>
+  <data name="preview_no_modify" xml:space="preserve">
+    <value>(no modifications)</value>
+  </data>
+  <data name="preview_sub" xml:space="preserve">
+    <value>Subtitle</value>
+  </data>
+  <data name="preview_video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="removeconfirm1" xml:space="preserve">
+    <value>Sure to remove selected item(s)?</value>
+  </data>
+  <data name="removeconfirm2" xml:space="preserve">
+    <value>Remove the selected item(s)</value>
+  </data>
+  <data name="status_fail" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="status_matched" xml:space="preserve">
+    <value>Matched</value>
+  </data>
+  <data name="status_miss_sub" xml:space="preserve">
+    <value>Missing subtitle</value>
+  </data>
+  <data name="status_miss_video" xml:space="preserve">
+    <value>Missing video</value>
+  </data>
+  <data name="status_succeed" xml:space="preserve">
+    <value>Succeeded</value>
+  </data>
+  <data name="status_unmatched" xml:space="preserve">
+    <value>Unmatched</value>
+  </data>
+  <data name="subtitle" xml:space="preserve">
+    <value>subtitle(s)</value>
+  </data>
+  <data name="title_subrenamer" xml:space="preserve">
+    <value>Batch rename subtitle files (SubRenamer)</value>
+  </data>
+  <data name="title_videorenamer" xml:space="preserve">
+    <value>Batch rename video files (VideoRenamer)</value>
+  </data>
+  <data name="video" xml:space="preserve">
+    <value>video(s)</value>
+  </data>
+  <data name="video_or_subtitle_files" xml:space="preserve">
+    <value>video or subtitle files</value>
+  </data>
 </root>

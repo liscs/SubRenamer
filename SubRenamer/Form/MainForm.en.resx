@@ -117,16 +117,128 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="TopMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 8</value>
-  </metadata>
-  <metadata name="MainToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>184, 8</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
-  </metadata>
+  <data name="TopMenu_OpenFileBtn.Text" xml:space="preserve">
+    <value>Import Files...</value>
+  </data>
+  <data name="TopMenu_OpenFolderBtn.Text" xml:space="preserve">
+    <value>Import Folders...</value>
+  </data>
+  <data name="TopMenu_ReMatch.Text" xml:space="preserve">
+    <value>Re-Match</value>
+  </data>
+  <data name="TopMenu_ClearAll.Text" xml:space="preserve">
+    <value>Clear List</value>
+  </data>
+  <data name="TopMenu_File.Text" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="TopMenu_Rule.Text" xml:space="preserve">
+    <value>Rule</value>
+  </data>
+  <data name="TopMenu_Setting.Text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="MatchKey.Text" xml:space="preserve">
+    <value>MatchKey</value>
+  </data>
+  <data name="Video.Text" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Subtitle.Text" xml:space="preserve">
+    <value>Subtitle</value>
+  </data>
+  <data name="Status.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="FileListUi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1272, 813</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="R_RuleBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="R_RuleBtn.Text" xml:space="preserve">
+    <value>Rule</value>
+  </data>
+  <data name="R_ClearAllBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="R_ClearAllBtn.Text" xml:space="preserve">
+    <value>Clear List</value>
+  </data>
+  <data name="R_ReMatchBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="R_ReMatchBtn.Text" xml:space="preserve">
+    <value>Re-Match</value>
+  </data>
+  <data name="CopyrightText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CopyrightText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 671</value>
+  </data>
+  <data name="R_RemoveBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="R_RemoveBtn.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="R_EditBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="R_EditBtn.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="R_OpenFolderBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="R_OpenFolderBtn.Text" xml:space="preserve">
+    <value>Import Folders</value>
+  </data>
+  <data name="PreviewCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PreviewCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 715</value>
+  </data>
+  <data name="PreviewCheckBox.Text" xml:space="preserve">
+    <value>Rename Preview</value>
+  </data>
+  <data name="StartBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="StartBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 739</value>
+  </data>
+  <data name="StartBtn.Text" xml:space="preserve">
+    <value>Start Rename</value>
+  </data>
+  <data name="R_OpenFileBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="R_OpenFileBtn.Text" xml:space="preserve">
+    <value>Import Files</value>
+  </data>
+  <data name="R_SettingBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="R_SettingBtn.Text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 813</value>
+  </data>
+  <data name="MainContPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1467, 821</value>
+  </data>
+  <data name="MainContWrapPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1489, 833</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1484, 843</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAA0AICAQAAEABADoAgAA1gAAABAQEAABAAQAKAEAAL4DAAAwMAAAAQAIAKgOAADmBAAAICAAAAEA
@@ -1521,5 +1633,8 @@
         AOaeFwDngxQA2IcYANOAGADMdxgAy1oWAMRqGQDBYxsA//8AAMADAACAAQAAAAEAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIgQAADNuQAA//8AAA==
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Rename subtitle files in batches (SubRenamer)</value>
   </data>
 </root>

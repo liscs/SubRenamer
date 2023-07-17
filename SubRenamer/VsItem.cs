@@ -1,9 +1,6 @@
-﻿using System;
+﻿using SubRenamer.StringLocalization;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SubRenamer
 {
@@ -71,16 +68,17 @@ namespace SubRenamer
 
         public string GetStatusStr()
         {
+            var rm = _string.ResourceManager;
             var transDict = new Dictionary<VsStatus, string> {
-                { VsStatus.Done, "成功" },
-                { VsStatus.Fatal, "失败" },
-                { VsStatus.Ready, "已匹配" },
-                { VsStatus.Unmatched, "未匹配" },
-                { VsStatus.VideoLack, "缺视频" },
-                { VsStatus.SubLack, "缺字幕" },
+                { VsStatus.Done, rm.GetString("status_success") },
+                { VsStatus.Fatal, rm.GetString("status_failed") },
+                { VsStatus.Ready, rm.GetString("status_matched") },
+                { VsStatus.Unmatched, rm.GetString("status_unmatched") },
+                { VsStatus.VideoLack, rm.GetString("status_miss_video") },
+                { VsStatus.SubLack, rm.GetString("status_miss_sub") },
             };
 
-            return transDict[this.Status];
+            return transDict[Status];
         }
 
         public bool IsEmpty => string.IsNullOrEmpty(MatchKey) && string.IsNullOrEmpty(Video) && string.IsNullOrEmpty(Sub);

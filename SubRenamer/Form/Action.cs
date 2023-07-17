@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SubRenamer.StringLocalization;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
@@ -34,6 +35,7 @@ namespace SubRenamer
             // 显示预览内容
             if (PreviewCheckBox.Checked)
             {
+                var rm = _string.ResourceManager;
                 videoText = !AppSettings.RenameVideo ? subText : videoText;
 
                 if (!AppSettings.RenameVideo && (vsItem.Sub != null && subRenameDict.ContainsKey(vsItem.Sub)))
@@ -41,7 +43,7 @@ namespace SubRenamer
                 else if (AppSettings.RenameVideo && (vsItem.Video != null && subRenameDict.ContainsKey(vsItem.Video)))
                     subText = showFullName ? subRenameDict[vsItem.Video] : Path.GetFileName(subRenameDict[vsItem.Video]);
                 else
-                    subText = "(不修改)";
+                    subText = rm.GetString("preview_no_modify");
             }
 
             return new string[]
@@ -87,16 +89,17 @@ namespace SubRenamer
             }
 
             // 预览修改模式
+            var rm = _string.ResourceManager;
             if (PreviewCheckBox.Checked)
             {
-                var renameFileType = !AppSettings.RenameVideo ? "字幕" : "视频";
-                Video.Text = $"{renameFileType}文件名";
-                Subtitle.Text = "修改为";
+                var renameFileType = !AppSettings.RenameVideo ? rm.GetString("preview_sub") : rm.GetString("preview_video");
+                Video.Text = $"{renameFileType}" + rm.GetString("preview_filename");
+                Subtitle.Text = rm.GetString("preview_modify");
             }
             else
             {
-                Video.Text = "视频";
-                Subtitle.Text = "字幕";
+                Video.Text = rm.GetString("preview_video");
+                Subtitle.Text = rm.GetString("preview_sub");
             }
         }
 
@@ -280,7 +283,7 @@ namespace SubRenamer
 
             result = result.TrimStart('0'); // 开头为零的情况：替换 0001 为 1
             result = result.Trim(); // 去掉前后空格
-            
+
             string ans = "";
             bool sflag = false;
             foreach (var i in result)
@@ -392,7 +395,7 @@ namespace SubRenamer
         /// 执行改名操作
         private void _StartRename(Dictionary<string, string> subRenameDict)
         {
-            Program.Log($"[=============== 开始执行改名操作  ===============]");
+            Program.Log("[=============== 开始执行改名操作  ===============]");
 
             string btnRawText = "";
             Invoke((MethodInvoker)delegate

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VsItemEditor));
             this.label1 = new System.Windows.Forms.Label();
             this.MatchKey_TextBox = new System.Windows.Forms.TextBox();
             this.Video_TextBox = new System.Windows.Forms.TextBox();
@@ -51,158 +52,126 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 25);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "匹配";
+            this.MainToolTip.SetToolTip(this.label1, resources.GetString("label1.ToolTip"));
             // 
             // MatchKey_TextBox
             // 
-            this.MatchKey_TextBox.Location = new System.Drawing.Point(78, 22);
+            resources.ApplyResources(this.MatchKey_TextBox, "MatchKey_TextBox");
             this.MatchKey_TextBox.Name = "MatchKey_TextBox";
-            this.MatchKey_TextBox.Size = new System.Drawing.Size(322, 35);
-            this.MatchKey_TextBox.TabIndex = 1;
+            this.MainToolTip.SetToolTip(this.MatchKey_TextBox, resources.GetString("MatchKey_TextBox.ToolTip"));
             this.MatchKey_TextBox.TextChanged += new System.EventHandler(this.MatchKey_TextBox_TextChanged);
             // 
             // Video_TextBox
             // 
-            this.Video_TextBox.Location = new System.Drawing.Point(20, 34);
-            this.Video_TextBox.Multiline = true;
+            resources.ApplyResources(this.Video_TextBox, "Video_TextBox");
             this.Video_TextBox.Name = "Video_TextBox";
             this.Video_TextBox.ReadOnly = true;
-            this.Video_TextBox.Size = new System.Drawing.Size(734, 114);
-            this.Video_TextBox.TabIndex = 2;
+            this.MainToolTip.SetToolTip(this.Video_TextBox, resources.GetString("Video_TextBox.ToolTip"));
             // 
             // Sub_TextBox
             // 
-            this.Sub_TextBox.Location = new System.Drawing.Point(20, 34);
-            this.Sub_TextBox.Multiline = true;
+            resources.ApplyResources(this.Sub_TextBox, "Sub_TextBox");
             this.Sub_TextBox.Name = "Sub_TextBox";
             this.Sub_TextBox.ReadOnly = true;
-            this.Sub_TextBox.Size = new System.Drawing.Size(734, 114);
-            this.Sub_TextBox.TabIndex = 5;
+            this.MainToolTip.SetToolTip(this.Sub_TextBox, resources.GetString("Sub_TextBox.ToolTip"));
             // 
             // Video_SelectFileBtn
             // 
-            this.Video_SelectFileBtn.Location = new System.Drawing.Point(760, 34);
+            resources.ApplyResources(this.Video_SelectFileBtn, "Video_SelectFileBtn");
             this.Video_SelectFileBtn.Name = "Video_SelectFileBtn";
-            this.Video_SelectFileBtn.Size = new System.Drawing.Size(74, 35);
-            this.Video_SelectFileBtn.TabIndex = 3;
-            this.Video_SelectFileBtn.Text = "...";
+            this.MainToolTip.SetToolTip(this.Video_SelectFileBtn, resources.GetString("Video_SelectFileBtn.ToolTip"));
             this.Video_SelectFileBtn.UseVisualStyleBackColor = true;
             this.Video_SelectFileBtn.Click += new System.EventHandler(this.Video_SelectFileBtn_Click);
             // 
             // Sub_SelectFileBtn
             // 
-            this.Sub_SelectFileBtn.Location = new System.Drawing.Point(760, 34);
+            resources.ApplyResources(this.Sub_SelectFileBtn, "Sub_SelectFileBtn");
             this.Sub_SelectFileBtn.Name = "Sub_SelectFileBtn";
-            this.Sub_SelectFileBtn.Size = new System.Drawing.Size(75, 35);
-            this.Sub_SelectFileBtn.TabIndex = 6;
-            this.Sub_SelectFileBtn.Text = "...";
+            this.MainToolTip.SetToolTip(this.Sub_SelectFileBtn, resources.GetString("Sub_SelectFileBtn.ToolTip"));
             this.Sub_SelectFileBtn.UseVisualStyleBackColor = true;
             this.Sub_SelectFileBtn.Click += new System.EventHandler(this.Sub_SelectFileBtn_Click);
             // 
             // PrevItemBtn
             // 
-            this.PrevItemBtn.Location = new System.Drawing.Point(513, 22);
+            resources.ApplyResources(this.PrevItemBtn, "PrevItemBtn");
             this.PrevItemBtn.Name = "PrevItemBtn";
-            this.PrevItemBtn.Size = new System.Drawing.Size(74, 35);
-            this.PrevItemBtn.TabIndex = 8;
-            this.PrevItemBtn.Text = "«";
+            this.MainToolTip.SetToolTip(this.PrevItemBtn, resources.GetString("PrevItemBtn.ToolTip"));
             this.PrevItemBtn.UseVisualStyleBackColor = true;
             this.PrevItemBtn.Click += new System.EventHandler(this.PrevItemBtn_Click);
             // 
             // NextItemBtn
             // 
-            this.NextItemBtn.Location = new System.Drawing.Point(673, 22);
+            resources.ApplyResources(this.NextItemBtn, "NextItemBtn");
             this.NextItemBtn.Name = "NextItemBtn";
-            this.NextItemBtn.Size = new System.Drawing.Size(74, 35);
-            this.NextItemBtn.TabIndex = 9;
-            this.NextItemBtn.Text = "»";
+            this.MainToolTip.SetToolTip(this.NextItemBtn, resources.GetString("NextItemBtn.ToolTip"));
             this.NextItemBtn.UseVisualStyleBackColor = true;
             this.NextItemBtn.Click += new System.EventHandler(this.NextItemBtn_Click);
             // 
             // Video_ClearBtn
             // 
-            this.Video_ClearBtn.Location = new System.Drawing.Point(760, 75);
+            resources.ApplyResources(this.Video_ClearBtn, "Video_ClearBtn");
             this.Video_ClearBtn.Name = "Video_ClearBtn";
-            this.Video_ClearBtn.Size = new System.Drawing.Size(74, 35);
-            this.Video_ClearBtn.TabIndex = 4;
-            this.Video_ClearBtn.Text = "×";
+            this.MainToolTip.SetToolTip(this.Video_ClearBtn, resources.GetString("Video_ClearBtn.ToolTip"));
             this.Video_ClearBtn.UseVisualStyleBackColor = true;
             this.Video_ClearBtn.Click += new System.EventHandler(this.Video_ClearBtn_Click);
             // 
             // Sub_ClearBtn
             // 
-            this.Sub_ClearBtn.Location = new System.Drawing.Point(760, 75);
+            resources.ApplyResources(this.Sub_ClearBtn, "Sub_ClearBtn");
             this.Sub_ClearBtn.Name = "Sub_ClearBtn";
-            this.Sub_ClearBtn.Size = new System.Drawing.Size(74, 35);
-            this.Sub_ClearBtn.TabIndex = 7;
-            this.Sub_ClearBtn.Text = "×";
+            this.MainToolTip.SetToolTip(this.Sub_ClearBtn, resources.GetString("Sub_ClearBtn.ToolTip"));
             this.Sub_ClearBtn.UseVisualStyleBackColor = true;
             this.Sub_ClearBtn.Click += new System.EventHandler(this.Sub_ClearBtn_Click);
             // 
             // RemoveItemBtn
             // 
-            this.RemoveItemBtn.Location = new System.Drawing.Point(433, 22);
+            resources.ApplyResources(this.RemoveItemBtn, "RemoveItemBtn");
             this.RemoveItemBtn.Name = "RemoveItemBtn";
-            this.RemoveItemBtn.Size = new System.Drawing.Size(74, 35);
-            this.RemoveItemBtn.TabIndex = 11;
-            this.RemoveItemBtn.Text = "-";
+            this.MainToolTip.SetToolTip(this.RemoveItemBtn, resources.GetString("RemoveItemBtn.ToolTip"));
             this.RemoveItemBtn.UseVisualStyleBackColor = true;
             this.RemoveItemBtn.Click += new System.EventHandler(this.RemoveItemBtn_Click);
             // 
             // AddItemBtn
             // 
-            this.AddItemBtn.Location = new System.Drawing.Point(753, 22);
+            resources.ApplyResources(this.AddItemBtn, "AddItemBtn");
             this.AddItemBtn.Name = "AddItemBtn";
-            this.AddItemBtn.Size = new System.Drawing.Size(74, 35);
-            this.AddItemBtn.TabIndex = 10;
-            this.AddItemBtn.Text = "+";
+            this.MainToolTip.SetToolTip(this.AddItemBtn, resources.GetString("AddItemBtn.ToolTip"));
             this.AddItemBtn.UseVisualStyleBackColor = true;
             this.AddItemBtn.Click += new System.EventHandler(this.AddItemBtn_Click);
             // 
             // PageNum
             // 
-            this.PageNum.Location = new System.Drawing.Point(593, 22);
+            resources.ApplyResources(this.PageNum, "PageNum");
             this.PageNum.Name = "PageNum";
             this.PageNum.ReadOnly = true;
-            this.PageNum.Size = new System.Drawing.Size(74, 35);
-            this.PageNum.TabIndex = 16;
-            this.PageNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.MainToolTip.SetToolTip(this.PageNum, resources.GetString("PageNum.ToolTip"));
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.Video_TextBox);
             this.groupBox1.Controls.Add(this.Video_SelectFileBtn);
             this.groupBox1.Controls.Add(this.Video_ClearBtn);
-            this.groupBox1.Location = new System.Drawing.Point(12, 76);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(845, 165);
-            this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "视频文件";
+            this.MainToolTip.SetToolTip(this.groupBox1, resources.GetString("groupBox1.ToolTip"));
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.Sub_TextBox);
             this.groupBox2.Controls.Add(this.Sub_SelectFileBtn);
             this.groupBox2.Controls.Add(this.Sub_ClearBtn);
-            this.groupBox2.Location = new System.Drawing.Point(12, 247);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(845, 165);
-            this.groupBox2.TabIndex = 18;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "字幕文件";
+            this.MainToolTip.SetToolTip(this.groupBox2, resources.GetString("groupBox2.ToolTip"));
             // 
             // VsItemEditor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(873, 424);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.PageNum);
@@ -212,14 +181,11 @@
             this.Controls.Add(this.PrevItemBtn);
             this.Controls.Add(this.MatchKey_TextBox);
             this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "VsItemEditor";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "编辑";
+            this.MainToolTip.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.VsItemEditor_FormClosed);
             this.Load += new System.EventHandler(this.VsItemEditor_Load);
             this.groupBox1.ResumeLayout(false);

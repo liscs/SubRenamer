@@ -117,4 +117,107 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="UpdateLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="UpdateLinkLabel.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="GithubLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 300</value>
+  </data>
+  <data name="GithubLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="GithubLinkLabel.Text" xml:space="preserve">
+    <value>Repository</value>
+  </data>
+  <data name="AuthorLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 299</value>
+  </data>
+  <data name="AuthorLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="AuthorLinkLabel.Text" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 16</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Backup to the SubBackup folder in the same directory</value>
+  </data>
+  <data name="RawSubtitleBuckup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="RawSubtitleBuckup.Text" xml:space="preserve">
+    <value>Backup subtitle</value>
+  </data>
+  <data name="ListShowFileFullName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 20</value>
+  </data>
+  <data name="ListShowFileFullName.Text" xml:space="preserve">
+    <value>Show the full path of the file</value>
+  </data>
+  <data name="ListItemRemovePrompt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 20</value>
+  </data>
+  <data name="ListItemRemovePrompt.Text" xml:space="preserve">
+    <value>Show various delete prompts</value>
+  </data>
+  <data name="BlogLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 300</value>
+  </data>
+  <data name="RenameVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 20</value>
+  </data>
+  <data name="RenameVideo.Text" xml:space="preserve">
+    <value>Modify video filename (according to subtitles)</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 226</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Check to modify the video file name according to the subtitle</value>
+  </data>
+  <data name="labelVideoExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="labelVideoExtension.Text" xml:space="preserve">
+    <value>Video extension</value>
+  </data>
+  <data name="labelSubExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="labelSubExtension.Text" xml:space="preserve">
+    <value>Subtitle extension</value>
+  </data>
+  <data name="comboBoxLanguage.Items" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="comboBoxLanguage.Items1" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="comboBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 15</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
 </root>

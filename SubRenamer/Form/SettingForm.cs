@@ -1,4 +1,5 @@
 ﻿using SubRenamer.Lib;
+using SubRenamer.StringLocalization;
 using System;
 using System.Diagnostics;
 using System.Linq;
@@ -14,6 +15,8 @@ namespace SubRenamer
         {
             _mainForm = mainForm;
             InitializeComponent();
+            comboBoxLanguage.SelectedIndex = 0;
+            languageLock = true;
         }
 
         private void SettingForm_Load(object sender, EventArgs e)
@@ -72,13 +75,14 @@ namespace SubRenamer
 
         private void AddVideoExtension(object sender, EventArgs e)
         {
+            var rm = _string.ResourceManager;
             string input = "";
-            var result = InputBox.Input("输入视频扩展名（以.开头）", "", ref input);
+            var result = InputBox.Input(rm.GetString("input_video_ex"), "", ref input);
             if (result.Equals(DialogResult.Cancel)) return;
             input = input.Trim();
             if (!input.StartsWith("."))
             {
-                MessageBox.Show("请以.开头！");
+                MessageBox.Show(rm.GetString("input_please_start_with_dot"));
                 return;
             }
             Global.VideoExts.Add(input);
@@ -103,13 +107,14 @@ namespace SubRenamer
 
         private void AddSubExtension(object sender, EventArgs e)
         {
+            var rm = _string.ResourceManager;
             string input = "";
-            var result = InputBox.Input("输入字幕扩展名（以.开头）", "", ref input);
+            var result = InputBox.Input(rm.GetString("input_sub_ex"), "", ref input);
             if (result.Equals(DialogResult.Cancel)) return;
             input = input.Trim();
             if (!input.StartsWith("."))
             {
-                MessageBox.Show("请以.开头！");
+                MessageBox.Show(rm.GetString("input_please_start_with_dot"));
                 return;
             }
             Global.SubExts.Add(input);
@@ -131,5 +136,30 @@ namespace SubRenamer
                 AppSettings.IniFile.Write("SubExtension", string.Join("|", Global.SubExts.ToArray()));
             }
         }
+
+        bool languageLock = false;
+        private void LanguageChanged(object sender, EventArgs e)
+        {
+            if (languageLock)
+            {
+                LanguageHelper languageHelper = new LanguageHelper(_mainForm, this);
+                switch (comboBoxLanguage.SelectedIndex)
+                {
+                    case 0:
+                        languageHelper.SetAllLang("zh");
+                        languageLock = false;
+                        comboBoxLanguage.SelectedIndex = 0;
+                        languageLock = true;
+                        break;
+                    case 1:
+                        languageHelper.SetAllLang("en");
+                        languageLock = false;
+                        comboBoxLanguage.SelectedIndex = 1;
+                        languageLock = true;
+                        break;
+                }
+            }
+        }
+
     }
 }

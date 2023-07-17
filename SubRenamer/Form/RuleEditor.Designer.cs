@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RuleEditor));
             this.ModeBtn_Auto = new System.Windows.Forms.RadioButton();
             this.ModeBtn_Manu = new System.Windows.Forms.RadioButton();
             this.ModeBtn_Regex = new System.Windows.Forms.RadioButton();
@@ -43,42 +44,31 @@
             // 
             // ModeBtn_Auto
             // 
-            this.ModeBtn_Auto.AutoSize = true;
-            this.ModeBtn_Auto.Location = new System.Drawing.Point(26, 46);
+            resources.ApplyResources(this.ModeBtn_Auto, "ModeBtn_Auto");
             this.ModeBtn_Auto.Name = "ModeBtn_Auto";
-            this.ModeBtn_Auto.Size = new System.Drawing.Size(121, 32);
-            this.ModeBtn_Auto.TabIndex = 3;
             this.ModeBtn_Auto.TabStop = true;
-            this.ModeBtn_Auto.Text = "自动匹配";
             this.ModeBtn_Auto.UseVisualStyleBackColor = true;
             this.ModeBtn_Auto.CheckedChanged += new System.EventHandler(this.ModeBtn_Auto_CheckedChanged);
             // 
             // ModeBtn_Manu
             // 
-            this.ModeBtn_Manu.AutoSize = true;
-            this.ModeBtn_Manu.Location = new System.Drawing.Point(26, 149);
+            resources.ApplyResources(this.ModeBtn_Manu, "ModeBtn_Manu");
             this.ModeBtn_Manu.Name = "ModeBtn_Manu";
-            this.ModeBtn_Manu.Size = new System.Drawing.Size(121, 32);
-            this.ModeBtn_Manu.TabIndex = 4;
             this.ModeBtn_Manu.TabStop = true;
-            this.ModeBtn_Manu.Text = "手动匹配";
             this.ModeBtn_Manu.UseVisualStyleBackColor = true;
             this.ModeBtn_Manu.CheckedChanged += new System.EventHandler(this.ModeBtn_Manu_CheckedChanged);
             // 
             // ModeBtn_Regex
             // 
-            this.ModeBtn_Regex.AutoSize = true;
-            this.ModeBtn_Regex.Location = new System.Drawing.Point(26, 260);
+            resources.ApplyResources(this.ModeBtn_Regex, "ModeBtn_Regex");
             this.ModeBtn_Regex.Name = "ModeBtn_Regex";
-            this.ModeBtn_Regex.Size = new System.Drawing.Size(121, 32);
-            this.ModeBtn_Regex.TabIndex = 5;
             this.ModeBtn_Regex.TabStop = true;
-            this.ModeBtn_Regex.Text = "正则匹配";
             this.ModeBtn_Regex.UseVisualStyleBackColor = true;
             this.ModeBtn_Regex.CheckedChanged += new System.EventHandler(this.ModeBtn_Regex_CheckedChanged);
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.Copyright);
             this.groupBox1.Controls.Add(this.EditBtn_Regex);
             this.groupBox1.Controls.Add(this.EditBtn_Manu);
@@ -88,93 +78,57 @@
             this.groupBox1.Controls.Add(this.ModeBtn_Auto);
             this.groupBox1.Controls.Add(this.ModeBtn_Regex);
             this.groupBox1.Controls.Add(this.ModeBtn_Manu);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(500, 351);
-            this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "匹配模式";
             // 
             // Copyright
             // 
-            this.Copyright.AutoSize = true;
+            resources.ApplyResources(this.Copyright, "Copyright");
             this.Copyright.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.Copyright.Location = new System.Drawing.Point(363, 0);
             this.Copyright.Name = "Copyright";
-            this.Copyright.Size = new System.Drawing.Size(129, 28);
-            this.Copyright.TabIndex = 11;
-            this.Copyright.Text = "qwqaq.com";
             this.Copyright.Click += new System.EventHandler(this.Copyright_Click);
             // 
             // EditBtn_Regex
             // 
-            this.EditBtn_Regex.AutoSize = true;
-            this.EditBtn_Regex.Location = new System.Drawing.Point(153, 262);
+            resources.ApplyResources(this.EditBtn_Regex, "EditBtn_Regex");
             this.EditBtn_Regex.Name = "EditBtn_Regex";
-            this.EditBtn_Regex.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditBtn_Regex.Size = new System.Drawing.Size(54, 28);
-            this.EditBtn_Regex.TabIndex = 10;
             this.EditBtn_Regex.TabStop = true;
-            this.EditBtn_Regex.Text = "编辑";
             this.EditBtn_Regex.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.EditBtn_Regex_LinkClicked);
             // 
             // EditBtn_Manu
             // 
-            this.EditBtn_Manu.AutoSize = true;
-            this.EditBtn_Manu.Location = new System.Drawing.Point(153, 149);
+            resources.ApplyResources(this.EditBtn_Manu, "EditBtn_Manu");
             this.EditBtn_Manu.Name = "EditBtn_Manu";
-            this.EditBtn_Manu.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditBtn_Manu.Size = new System.Drawing.Size(54, 28);
-            this.EditBtn_Manu.TabIndex = 9;
             this.EditBtn_Manu.TabStop = true;
-            this.EditBtn_Manu.Text = "编辑";
             this.EditBtn_Manu.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.EditBtn_Manu_LinkClicked);
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
+            resources.ApplyResources(this.label3, "label3");
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label3.Location = new System.Drawing.Point(26, 295);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(348, 28);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "手动输入用于集数匹配的正则表达式";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            resources.ApplyResources(this.label2, "label2");
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(26, 184);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(327, 28);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "手动输入文件名中集数前后的文字";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Location = new System.Drawing.Point(26, 85);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(327, 28);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "通过比较两个文件名的差异来匹配";
             // 
             // RuleEditor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(524, 378);
             this.Controls.Add(this.groupBox1);
-            this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "RuleEditor";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "规则编辑";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RuleEditor_FormClosed);
             this.Load += new System.EventHandler(this.RuleEditor_Load);
             this.groupBox1.ResumeLayout(false);
