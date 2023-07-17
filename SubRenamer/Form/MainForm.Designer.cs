@@ -70,11 +70,9 @@
             this.TopMenu_File,
             this.TopMenu_Rule,
             this.TopMenu_Setting});
-            resources.ApplyResources(this.TopMenu, "TopMenu");
             // 
             // TopMenu_File
             // 
-            resources.ApplyResources(this.TopMenu_File, "TopMenu_File");
             this.TopMenu_File.Index = 0;
             this.TopMenu_File.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.TopMenu_OpenFileBtn,
@@ -83,52 +81,53 @@
             this.TopMenu_ReMatch,
             this.TopMenu_ClearAll});
             this.TopMenu_File.Tag = "TopMenu_File";
+            resources.ApplyResources(this.TopMenu_File, "TopMenu_File");
             // 
             // TopMenu_OpenFileBtn
             // 
-            resources.ApplyResources(this.TopMenu_OpenFileBtn, "TopMenu_OpenFileBtn");
             this.TopMenu_OpenFileBtn.Index = 0;
             this.TopMenu_OpenFileBtn.Tag = "TopMenu_OpenFileBtn";
+            resources.ApplyResources(this.TopMenu_OpenFileBtn, "TopMenu_OpenFileBtn");
             this.TopMenu_OpenFileBtn.Click += new System.EventHandler(this.TopMenu_OpenFileBtn_Click);
             // 
             // TopMenu_OpenFolderBtn
             // 
-            resources.ApplyResources(this.TopMenu_OpenFolderBtn, "TopMenu_OpenFolderBtn");
             this.TopMenu_OpenFolderBtn.Index = 1;
             this.TopMenu_OpenFolderBtn.Tag = "TopMenu_OpenFolderBtn";
+            resources.ApplyResources(this.TopMenu_OpenFolderBtn, "TopMenu_OpenFolderBtn");
             this.TopMenu_OpenFolderBtn.Click += new System.EventHandler(this.TopMenu_OpenFolderBtn_Click);
             // 
             // menuItem1
             // 
-            resources.ApplyResources(this.menuItem1, "menuItem1");
             this.menuItem1.Index = 2;
+            resources.ApplyResources(this.menuItem1, "menuItem1");
             // 
             // TopMenu_ReMatch
             // 
-            resources.ApplyResources(this.TopMenu_ReMatch, "TopMenu_ReMatch");
             this.TopMenu_ReMatch.Index = 3;
             this.TopMenu_ReMatch.Tag = "TopMenu_ReMatch";
+            resources.ApplyResources(this.TopMenu_ReMatch, "TopMenu_ReMatch");
             this.TopMenu_ReMatch.Click += new System.EventHandler(this.TopMenu_ReMatch_Click);
             // 
             // TopMenu_ClearAll
             // 
-            resources.ApplyResources(this.TopMenu_ClearAll, "TopMenu_ClearAll");
             this.TopMenu_ClearAll.Index = 4;
             this.TopMenu_ClearAll.Tag = "TopMenu_ClearAll";
+            resources.ApplyResources(this.TopMenu_ClearAll, "TopMenu_ClearAll");
             this.TopMenu_ClearAll.Click += new System.EventHandler(this.TopMenu_ClearAll_Click);
             // 
             // TopMenu_Rule
             // 
-            resources.ApplyResources(this.TopMenu_Rule, "TopMenu_Rule");
             this.TopMenu_Rule.Index = 1;
             this.TopMenu_Rule.Tag = "TopMenu_Rule";
+            resources.ApplyResources(this.TopMenu_Rule, "TopMenu_Rule");
             this.TopMenu_Rule.Click += new System.EventHandler(this.TopMenu_Rule_Click);
             // 
             // TopMenu_Setting
             // 
-            resources.ApplyResources(this.TopMenu_Setting, "TopMenu_Setting");
             this.TopMenu_Setting.Index = 2;
             this.TopMenu_Setting.Tag = "TopMenu_Setting";
+            resources.ApplyResources(this.TopMenu_Setting, "TopMenu_Setting");
             this.TopMenu_Setting.Click += new System.EventHandler(this.TopMenu_Setting_Click);
             // 
             // MainContPanel
@@ -137,22 +136,20 @@
             this.MainContPanel.Controls.Add(this.FileListUi, 0, 1);
             this.MainContPanel.Controls.Add(this.tableLayoutPanel2, 1, 1);
             this.MainContPanel.Name = "MainContPanel";
-            this.MainToolTip.SetToolTip(this.MainContPanel, resources.GetString("MainContPanel.ToolTip"));
             // 
             // FileListUi
             // 
-            resources.ApplyResources(this.FileListUi, "FileListUi");
             this.FileListUi.AllowDrop = true;
             this.FileListUi.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.MatchKey,
             this.Video,
             this.Subtitle,
             this.Status});
+            resources.ApplyResources(this.FileListUi, "FileListUi");
             this.FileListUi.FullRowSelect = true;
             this.FileListUi.HideSelection = false;
             this.FileListUi.Name = "FileListUi";
             this.FileListUi.ShowItemToolTips = true;
-            this.MainToolTip.SetToolTip(this.FileListUi, resources.GetString("FileListUi.ToolTip"));
             this.FileListUi.UseCompatibleStateImageBehavior = false;
             this.FileListUi.View = System.Windows.Forms.View.Details;
             this.FileListUi.DragDrop += new System.Windows.Forms.DragEventHandler(this.FileListUi_DragDrop);
@@ -195,13 +192,11 @@
             this.tableLayoutPanel2.Controls.Add(this.R_OpenFileBtn, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.R_SettingBtn, 0, 10);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.MainToolTip.SetToolTip(this.tableLayoutPanel2, resources.GetString("tableLayoutPanel2.ToolTip"));
             // 
             // R_RuleBtn
             // 
             resources.ApplyResources(this.R_RuleBtn, "R_RuleBtn");
             this.R_RuleBtn.Name = "R_RuleBtn";
-            this.MainToolTip.SetToolTip(this.R_RuleBtn, resources.GetString("R_RuleBtn.ToolTip"));
             this.R_RuleBtn.UseVisualStyleBackColor = true;
             this.R_RuleBtn.Click += new System.EventHandler(this.R_RuleBtn_Click);
             // 
@@ -209,7 +204,6 @@
             // 
             resources.ApplyResources(this.R_ClearAllBtn, "R_ClearAllBtn");
             this.R_ClearAllBtn.Name = "R_ClearAllBtn";
-            this.MainToolTip.SetToolTip(this.R_ClearAllBtn, resources.GetString("R_ClearAllBtn.ToolTip"));
             this.R_ClearAllBtn.UseVisualStyleBackColor = true;
             this.R_ClearAllBtn.Click += new System.EventHandler(this.R_ClearAllBtn_Click);
             // 
@@ -217,7 +211,6 @@
             // 
             resources.ApplyResources(this.R_ReMatchBtn, "R_ReMatchBtn");
             this.R_ReMatchBtn.Name = "R_ReMatchBtn";
-            this.MainToolTip.SetToolTip(this.R_ReMatchBtn, resources.GetString("R_ReMatchBtn.ToolTip"));
             this.R_ReMatchBtn.UseVisualStyleBackColor = true;
             this.R_ReMatchBtn.Click += new System.EventHandler(this.R_ReMatchBtn_Click);
             // 
@@ -228,14 +221,12 @@
             this.CopyrightText.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CopyrightText.ForeColor = System.Drawing.Color.DarkGray;
             this.CopyrightText.Name = "CopyrightText";
-            this.MainToolTip.SetToolTip(this.CopyrightText, resources.GetString("CopyrightText.ToolTip"));
             this.CopyrightText.Click += new System.EventHandler(this.CopyrightText_Click);
             // 
             // R_RemoveBtn
             // 
             resources.ApplyResources(this.R_RemoveBtn, "R_RemoveBtn");
             this.R_RemoveBtn.Name = "R_RemoveBtn";
-            this.MainToolTip.SetToolTip(this.R_RemoveBtn, resources.GetString("R_RemoveBtn.ToolTip"));
             this.R_RemoveBtn.UseVisualStyleBackColor = true;
             this.R_RemoveBtn.Click += new System.EventHandler(this.R_RemoveBtn_Click);
             // 
@@ -243,7 +234,6 @@
             // 
             resources.ApplyResources(this.R_EditBtn, "R_EditBtn");
             this.R_EditBtn.Name = "R_EditBtn";
-            this.MainToolTip.SetToolTip(this.R_EditBtn, resources.GetString("R_EditBtn.ToolTip"));
             this.R_EditBtn.UseVisualStyleBackColor = true;
             this.R_EditBtn.Click += new System.EventHandler(this.R_EditBtn_Click);
             // 
@@ -251,7 +241,6 @@
             // 
             resources.ApplyResources(this.R_OpenFolderBtn, "R_OpenFolderBtn");
             this.R_OpenFolderBtn.Name = "R_OpenFolderBtn";
-            this.MainToolTip.SetToolTip(this.R_OpenFolderBtn, resources.GetString("R_OpenFolderBtn.ToolTip"));
             this.R_OpenFolderBtn.UseVisualStyleBackColor = true;
             this.R_OpenFolderBtn.Click += new System.EventHandler(this.R_OpenFolderBtn_Click);
             // 
@@ -259,7 +248,6 @@
             // 
             resources.ApplyResources(this.PreviewCheckBox, "PreviewCheckBox");
             this.PreviewCheckBox.Name = "PreviewCheckBox";
-            this.MainToolTip.SetToolTip(this.PreviewCheckBox, resources.GetString("PreviewCheckBox.ToolTip"));
             this.PreviewCheckBox.UseVisualStyleBackColor = true;
             this.PreviewCheckBox.CheckedChanged += new System.EventHandler(this.PreviewCheckBox_CheckedChanged);
             // 
@@ -267,7 +255,6 @@
             // 
             resources.ApplyResources(this.StartBtn, "StartBtn");
             this.StartBtn.Name = "StartBtn";
-            this.MainToolTip.SetToolTip(this.StartBtn, resources.GetString("StartBtn.ToolTip"));
             this.StartBtn.UseVisualStyleBackColor = true;
             this.StartBtn.Click += new System.EventHandler(this.StartBtn_Click);
             // 
@@ -275,7 +262,6 @@
             // 
             resources.ApplyResources(this.R_OpenFileBtn, "R_OpenFileBtn");
             this.R_OpenFileBtn.Name = "R_OpenFileBtn";
-            this.MainToolTip.SetToolTip(this.R_OpenFileBtn, resources.GetString("R_OpenFileBtn.ToolTip"));
             this.R_OpenFileBtn.UseVisualStyleBackColor = true;
             this.R_OpenFileBtn.Click += new System.EventHandler(this.R_OpenFileBtn_Click);
             // 
@@ -283,7 +269,6 @@
             // 
             resources.ApplyResources(this.R_SettingBtn, "R_SettingBtn");
             this.R_SettingBtn.Name = "R_SettingBtn";
-            this.MainToolTip.SetToolTip(this.R_SettingBtn, resources.GetString("R_SettingBtn.ToolTip"));
             this.R_SettingBtn.UseVisualStyleBackColor = true;
             this.R_SettingBtn.Click += new System.EventHandler(this.R_SettingBtn_Click);
             // 
@@ -293,7 +278,6 @@
             this.MainContWrapPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MainContWrapPanel.Controls.Add(this.MainContPanel);
             this.MainContWrapPanel.Name = "MainContWrapPanel";
-            this.MainToolTip.SetToolTip(this.MainContWrapPanel, resources.GetString("MainContWrapPanel.ToolTip"));
             // 
             // MainForm
             // 
@@ -303,7 +287,6 @@
             this.Menu = this.TopMenu;
             this.Name = "MainForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.MainToolTip.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.Resize += new System.EventHandler(this.MainForm_Resize);
             this.MainContPanel.ResumeLayout(false);

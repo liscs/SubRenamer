@@ -117,422 +117,545 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1484, 844</value>
-  </data>
-  <data name="R_RemoveBtn.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="R_EditBtn.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;TopMenu_File.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MainContPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="FileListUi" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,190" /&gt;&lt;Rows Styles="Absolute,8,Percent,100,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="R_SettingBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 3</value>
-  </data>
-  <data name="R_RemoveBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 3</value>
-  </data>
-  <data name="&gt;&gt;PreviewCheckBox.Name" xml:space="preserve">
-    <value>PreviewCheckBox</value>
-  </data>
-  <data name="&gt;&gt;MatchKey.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MainContWrapPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="PreviewCheckBox.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;R_ClearAllBtn.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;R_ReMatchBtn.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="R_SettingBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="R_OpenFileBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="MainContPanel.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="MainContWrapPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1489, 846</value>
-  </data>
-  <data name="&gt;&gt;R_EditBtn.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;R_RuleBtn.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="FileListUi.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 9pt</value>
-  </data>
-  <data name="&gt;&gt;StartBtn.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="R_ClearAllBtn.Text" xml:space="preserve">
-    <value>清空列表</value>
-  </data>
-  <data name="&gt;&gt;MatchKey.Name" xml:space="preserve">
-    <value>MatchKey</value>
-  </data>
-  <data name="MainContWrapPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <metadata name="TopMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 8</value>
+  </metadata>
+  <data name="TopMenu_OpenFileBtn.Text" xml:space="preserve">
+    <value>导入文件...</value>
   </data>
   <data name="TopMenu_OpenFolderBtn.Text" xml:space="preserve">
     <value>导入文件夹...</value>
   </data>
-  <data name="MainContPanel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;MainToolTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="StartBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 74</value>
-  </data>
-  <data name="&gt;&gt;TopMenu_OpenFileBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Status.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;R_SettingBtn.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;R_OpenFolderBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="FileListUi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1272, 826</value>
-  </data>
-  <data name="&gt;&gt;TopMenu_File.Name" xml:space="preserve">
-    <value>TopMenu_File</value>
-  </data>
-  <data name="CopyrightText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 684</value>
-  </data>
-  <data name="PreviewCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 21</value>
-  </data>
-  <data name="&gt;&gt;MainContPanel.Name" xml:space="preserve">
-    <value>MainContPanel</value>
-  </data>
-  <data name="&gt;&gt;TopMenu_ReMatch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="R_OpenFileBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 3</value>
-  </data>
-  <data name="&gt;&gt;R_OpenFileBtn.Name" xml:space="preserve">
-    <value>R_OpenFileBtn</value>
-  </data>
-  <data name="&gt;&gt;R_RemoveBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TopMenu.Name" xml:space="preserve">
-    <value>TopMenu</value>
-  </data>
-  <data name="&gt;&gt;TopMenu_ReMatch.Name" xml:space="preserve">
-    <value>TopMenu_ReMatch</value>
-  </data>
-  <data name="&gt;&gt;TopMenu_Rule.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="R_OpenFolderBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
-    <value>MainContPanel</value>
-  </data>
-  <data name="FileListUi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 8</value>
-  </data>
   <data name="menuItem1.Text" xml:space="preserve">
     <value>-</value>
   </data>
-  <data name="&gt;&gt;R_RuleBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TopMenu_ReMatch.Text" xml:space="preserve">
+    <value>重新匹配</value>
   </data>
-  <data name="&gt;&gt;MainToolTip.Name" xml:space="preserve">
-    <value>MainToolTip</value>
+  <data name="TopMenu_ClearAll.Text" xml:space="preserve">
+    <value>清空列表</value>
   </data>
-  <data name="PreviewCheckBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
+  <data name="TopMenu_File.Text" xml:space="preserve">
+    <value>文件</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
+  <data name="TopMenu_Rule.Text" xml:space="preserve">
+    <value>规则</value>
   </data>
-  <data name="StartBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 9pt</value>
+  <data name="TopMenu_Setting.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <metadata name="MainToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>184, 8</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MainContPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="MatchKey.Text" xml:space="preserve">
     <value>匹配</value>
   </data>
-  <data name="R_SettingBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="MatchKey.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="Video.Text" xml:space="preserve">
+    <value>视频</value>
+  </data>
+  <data name="Video.Width" type="System.Int32, mscorlib">
+    <value>520</value>
+  </data>
+  <data name="Subtitle.Text" xml:space="preserve">
+    <value>字幕</value>
+  </data>
+  <data name="Subtitle.Width" type="System.Int32, mscorlib">
+    <value>520</value>
+  </data>
+  <data name="Status.Text" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Status.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FileListUi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="R_RemoveBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="FileListUi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
   </data>
-  <data name="&gt;&gt;R_EditBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="FileListUi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="FileListUi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 5, 0</value>
+  </data>
+  <data name="FileListUi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1272, 826</value>
+  </data>
+  <data name="FileListUi.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
   <data name="&gt;&gt;FileListUi.Name" xml:space="preserve">
     <value>FileListUi</value>
   </data>
-  <data name="&gt;&gt;TopMenu_OpenFolderBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;FileListUi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;R_RemoveBtn.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
+  <data name="&gt;&gt;FileListUi.Parent" xml:space="preserve">
+    <value>MainContPanel</value>
   </data>
-  <data name="&gt;&gt;R_ReMatchBtn.Parent" xml:space="preserve">
+  <data name="&gt;&gt;FileListUi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="R_RuleBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="R_RuleBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 370</value>
+  </data>
+  <data name="R_RuleBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
+  </data>
+  <data name="R_RuleBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 47</value>
+  </data>
+  <data name="R_RuleBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="R_RuleBtn.Text" xml:space="preserve">
+    <value>规则</value>
+  </data>
+  <data name="&gt;&gt;R_RuleBtn.Name" xml:space="preserve">
+    <value>R_RuleBtn</value>
+  </data>
+  <data name="&gt;&gt;R_RuleBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R_RuleBtn.Parent" xml:space="preserve">
     <value>tableLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;R_RuleBtn.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="R_ClearAllBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="Subtitle.Text" xml:space="preserve">
-    <value>字幕</value>
+  <data name="R_ClearAllBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 300</value>
   </data>
-  <data name="MainContWrapPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;Video.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TopMenu_Rule.Name" xml:space="preserve">
-    <value>TopMenu_Rule</value>
-  </data>
-  <data name="R_RuleBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="R_ClearAllBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 3</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="R_ClearAllBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 47</value>
   </data>
-  <data name="&gt;&gt;StartBtn.Name" xml:space="preserve">
-    <value>StartBtn</value>
+  <data name="R_ClearAllBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
   </data>
-  <data name="CopyrightText.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="R_OpenFolderBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="R_EditBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 130</value>
-  </data>
-  <data name="R_ReMatchBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 3</value>
-  </data>
-  <data name="CopyrightText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 16</value>
+  <data name="R_ClearAllBtn.Text" xml:space="preserve">
+    <value>清空列表</value>
   </data>
   <data name="&gt;&gt;R_ClearAllBtn.Name" xml:space="preserve">
     <value>R_ClearAllBtn</value>
   </data>
-  <data name="MainContPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1467, 834</value>
+  <data name="&gt;&gt;R_ClearAllBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="R_ClearAllBtn.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="R_SettingBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 420</value>
-  </data>
-  <data name="&gt;&gt;R_OpenFileBtn.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="TopMenu_ReMatch.Text" xml:space="preserve">
-    <value>重新匹配</value>
-  </data>
-  <data name="R_RuleBtn.Text" xml:space="preserve">
-    <value>规则</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TopMenu_Setting.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="R_SettingBtn.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="FileListUi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;R_EditBtn.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;Subtitle.Name" xml:space="preserve">
-    <value>Subtitle</value>
-  </data>
-  <data name="MainContWrapPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 0</value>
-  </data>
-  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1277, 8</value>
-  </data>
-  <data name="FileListUi.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>字幕文件批量改名 (SubRenamer)</value>
-  </data>
-  <data name="&gt;&gt;PreviewCheckBox.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="R_RemoveBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 47</value>
-  </data>
-  <data name="R_EditBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 47</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 9pt</value>
-  </data>
-  <data name="PreviewCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 728</value>
-  </data>
-  <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;CopyrightText.Name" xml:space="preserve">
-    <value>CopyrightText</value>
-  </data>
-  <data name="&gt;&gt;CopyrightText.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;MainContPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Status.Width" type="System.Int32, mscorlib">
-    <value>120</value>
-  </data>
-  <data name="FileListUi.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
-  </data>
-  <data name="&gt;&gt;R_RemoveBtn.Name" xml:space="preserve">
-    <value>R_RemoveBtn</value>
-  </data>
-  <data name="MainContWrapPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 0, 10, 10</value>
+  <data name="&gt;&gt;R_ClearAllBtn.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;R_ClearAllBtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;menuItem1.Name" xml:space="preserve">
-    <value>menuItem1</value>
+  <data name="R_ReMatchBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1500, 882</value>
+  <data name="R_ReMatchBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 250</value>
+  </data>
+  <data name="R_ReMatchBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
+  </data>
+  <data name="R_ReMatchBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 47</value>
+  </data>
+  <data name="R_ReMatchBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="R_ReMatchBtn.Text" xml:space="preserve">
+    <value>重新匹配</value>
   </data>
   <data name="&gt;&gt;R_ReMatchBtn.Name" xml:space="preserve">
     <value>R_ReMatchBtn</value>
   </data>
-  <data name="&gt;&gt;R_OpenFileBtn.Type" xml:space="preserve">
+  <data name="&gt;&gt;R_ReMatchBtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="R_EditBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="&gt;&gt;R_ReMatchBtn.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
   </data>
-  <data name="R_ReMatchBtn.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;R_ReMatchBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;TopMenu_OpenFileBtn.Name" xml:space="preserve">
-    <value>TopMenu_OpenFileBtn</value>
+  <data name="CopyrightText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;TopMenu_ClearAll.Name" xml:space="preserve">
-    <value>TopMenu_ClearAll</value>
+  <data name="CopyrightText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
-  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 826</value>
+  <data name="CopyrightText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8pt</value>
   </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="R_OpenFolderBtn.Text" xml:space="preserve">
-    <value>导入文件夹</value>
-  </data>
-  <data name="&gt;&gt;R_OpenFolderBtn.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="PreviewCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="MainContWrapPanel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="StartBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;TopMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="R_RemoveBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;StartBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Video.Text" xml:space="preserve">
-    <value>视频</value>
-  </data>
-  <data name="tableLayoutPanel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="R_RuleBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;R_EditBtn.Name" xml:space="preserve">
-    <value>R_EditBtn</value>
+  <data name="CopyrightText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 684</value>
   </data>
   <data name="CopyrightText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 10, 7, 10</value>
   </data>
-  <data name="R_OpenFolderBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 47</value>
+  <data name="CopyrightText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 16</value>
   </data>
-  <data name="R_EditBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 3</value>
+  <data name="CopyrightText.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="CopyrightText.Text" xml:space="preserve">
+    <value>(c) qwqaq.com</value>
+  </data>
+  <data name="&gt;&gt;CopyrightText.Name" xml:space="preserve">
+    <value>CopyrightText</value>
+  </data>
+  <data name="&gt;&gt;CopyrightText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CopyrightText.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;CopyrightText.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="R_RemoveBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="R_RemoveBtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 180</value>
   </data>
-  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="R_RuleBtn" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_ClearAllBtn" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_ReMatchBtn" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CopyrightText" Row="12" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_RemoveBtn" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_EditBtn" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_OpenFolderBtn" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PreviewCheckBox" Row="13" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="StartBtn" Row="14" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_OpenFileBtn" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_SettingBtn" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,50,Absolute,50,Absolute,30,Absolute,50,Absolute,50,Absolute,20,Absolute,50,Absolute,50,Absolute,20,Absolute,50,Absolute,50,Percent,63.11475,Percent,36.88525,Absolute,42,Absolute,73,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  <data name="R_RemoveBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
   </data>
-  <data name="Video.Width" type="System.Int32, mscorlib">
-    <value>520</value>
+  <data name="R_RemoveBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 47</value>
+  </data>
+  <data name="R_RemoveBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="R_RemoveBtn.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="&gt;&gt;R_RemoveBtn.Name" xml:space="preserve">
+    <value>R_RemoveBtn</value>
+  </data>
+  <data name="&gt;&gt;R_RemoveBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R_RemoveBtn.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;R_RemoveBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="R_EditBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="R_EditBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 130</value>
+  </data>
+  <data name="R_EditBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
+  </data>
+  <data name="R_EditBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 47</value>
+  </data>
+  <data name="R_EditBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="R_EditBtn.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="&gt;&gt;R_EditBtn.Name" xml:space="preserve">
+    <value>R_EditBtn</value>
+  </data>
+  <data name="&gt;&gt;R_EditBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R_EditBtn.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;R_EditBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="R_OpenFolderBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="R_ReMatchBtn.Text" xml:space="preserve">
-    <value>重新匹配</value>
+  <data name="R_OpenFolderBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="R_OpenFolderBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
+  </data>
+  <data name="R_OpenFolderBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 47</value>
+  </data>
+  <data name="R_OpenFolderBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="R_OpenFolderBtn.Text" xml:space="preserve">
+    <value>导入文件夹</value>
+  </data>
+  <data name="&gt;&gt;R_OpenFolderBtn.Name" xml:space="preserve">
+    <value>R_OpenFolderBtn</value>
+  </data>
+  <data name="&gt;&gt;R_OpenFolderBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R_OpenFolderBtn.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;R_OpenFolderBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PreviewCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PreviewCheckBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="PreviewCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 728</value>
+  </data>
+  <data name="PreviewCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 21</value>
+  </data>
+  <data name="PreviewCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="PreviewCheckBox.Text" xml:space="preserve">
+    <value>改名预览</value>
+  </data>
+  <data name="&gt;&gt;PreviewCheckBox.Name" xml:space="preserve">
+    <value>PreviewCheckBox</value>
+  </data>
+  <data name="&gt;&gt;PreviewCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PreviewCheckBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;PreviewCheckBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="StartBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="StartBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 752</value>
+  </data>
+  <data name="StartBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="StartBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 74</value>
+  </data>
+  <data name="StartBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="StartBtn.Text" xml:space="preserve">
+    <value>一键改名</value>
+  </data>
+  <data name="&gt;&gt;StartBtn.Name" xml:space="preserve">
+    <value>StartBtn</value>
+  </data>
+  <data name="&gt;&gt;StartBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartBtn.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;StartBtn.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="R_OpenFileBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="R_OpenFileBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="R_OpenFileBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
+  </data>
+  <data name="R_OpenFileBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 47</value>
+  </data>
+  <data name="R_OpenFileBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="R_OpenFileBtn.Text" xml:space="preserve">
+    <value>导入文件</value>
+  </data>
+  <data name="&gt;&gt;R_OpenFileBtn.Name" xml:space="preserve">
+    <value>R_OpenFileBtn</value>
+  </data>
+  <data name="&gt;&gt;R_OpenFileBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R_OpenFileBtn.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;R_OpenFileBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="R_SettingBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="R_SettingBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 420</value>
+  </data>
+  <data name="R_SettingBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
+  </data>
+  <data name="R_SettingBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 47</value>
+  </data>
+  <data name="R_SettingBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="R_SettingBtn.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="&gt;&gt;R_SettingBtn.Name" xml:space="preserve">
+    <value>R_SettingBtn</value>
+  </data>
+  <data name="&gt;&gt;R_SettingBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R_SettingBtn.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;R_SettingBtn.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1277, 8</value>
+  </data>
+  <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 826</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>MainContPanel</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="R_RuleBtn" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_ClearAllBtn" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_ReMatchBtn" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CopyrightText" Row="12" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_RemoveBtn" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_EditBtn" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_OpenFolderBtn" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PreviewCheckBox" Row="13" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="StartBtn" Row="14" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_OpenFileBtn" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_SettingBtn" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,50,Absolute,50,Absolute,30,Absolute,50,Absolute,50,Absolute,20,Absolute,50,Absolute,50,Absolute,20,Absolute,50,Absolute,50,Percent,63.11475,Percent,36.88525,Absolute,42,Absolute,73,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="MainContPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="MainContPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 0</value>
+  </data>
+  <data name="MainContPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="MainContPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MainContPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1467, 834</value>
+  </data>
+  <data name="MainContPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;MainContPanel.Name" xml:space="preserve">
+    <value>MainContPanel</value>
+  </data>
+  <data name="&gt;&gt;MainContPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainContPanel.Parent" xml:space="preserve">
+    <value>MainContWrapPanel</value>
+  </data>
+  <data name="&gt;&gt;MainContPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MainContPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="FileListUi" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,190" /&gt;&lt;Rows Styles="Absolute,8,Percent,100,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="MainContWrapPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="MainContWrapPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 0</value>
+  </data>
+  <data name="MainContWrapPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="MainContWrapPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 0, 10, 10</value>
+  </data>
+  <data name="MainContWrapPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1489, 846</value>
+  </data>
+  <data name="MainContWrapPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;MainContWrapPanel.Name" xml:space="preserve">
+    <value>MainContWrapPanel</value>
+  </data>
+  <data name="&gt;&gt;MainContWrapPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainContWrapPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainContWrapPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>72</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1484, 865</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1929,280 +2052,106 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIgQAADNuQAA//8AAA==
 </value>
   </data>
-  <data name="TopMenu_Rule.Text" xml:space="preserve">
-    <value>规则</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
-  <data name="MainContPanel.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1500, 904</value>
   </data>
-  <data name="&gt;&gt;CopyrightText.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
-  <data name="MainContPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>字幕文件批量改名 (SubRenamer)</value>
   </data>
-  <data name="&gt;&gt;R_ClearAllBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;TopMenu.Name" xml:space="preserve">
+    <value>TopMenu</value>
   </data>
-  <data name="CopyrightText.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;TopMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="R_RuleBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
+  <data name="&gt;&gt;TopMenu_File.Name" xml:space="preserve">
+    <value>TopMenu_File</value>
   </data>
-  <data name="Subtitle.Width" type="System.Int32, mscorlib">
-    <value>520</value>
+  <data name="&gt;&gt;TopMenu_File.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="R_OpenFolderBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 3</value>
+  <data name="&gt;&gt;TopMenu_OpenFileBtn.Name" xml:space="preserve">
+    <value>TopMenu_OpenFileBtn</value>
   </data>
-  <data name="R_OpenFileBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;Video.Name" xml:space="preserve">
-    <value>Video</value>
-  </data>
-  <data name="R_RemoveBtn.Text" xml:space="preserve">
-    <value>删除</value>
-  </data>
-  <data name="&gt;&gt;R_RemoveBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="CopyrightText.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;TopMenu_OpenFileBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;TopMenu_OpenFolderBtn.Name" xml:space="preserve">
     <value>TopMenu_OpenFolderBtn</value>
   </data>
-  <data name="CopyrightText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
+  <data name="&gt;&gt;TopMenu_OpenFolderBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="TopMenu_OpenFileBtn.Text" xml:space="preserve">
-    <value>导入文件...</value>
-  </data>
-  <data name="&gt;&gt;MainContWrapPanel.Name" xml:space="preserve">
-    <value>MainContWrapPanel</value>
-  </data>
-  <data name="&gt;&gt;TopMenu_Setting.Name" xml:space="preserve">
-    <value>TopMenu_Setting</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="R_OpenFileBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 47</value>
-  </data>
-  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="MainContPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="FileListUi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 5, 0</value>
-  </data>
-  <data name="PreviewCheckBox.Text" xml:space="preserve">
-    <value>改名预览</value>
-  </data>
-  <data name="MatchKey.Width" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <data name="&gt;&gt;R_OpenFolderBtn.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;R_RuleBtn.Name" xml:space="preserve">
-    <value>R_RuleBtn</value>
-  </data>
-  <data name="R_ReMatchBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="R_OpenFileBtn.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;R_OpenFolderBtn.Name" xml:space="preserve">
-    <value>R_OpenFolderBtn</value>
-  </data>
-  <data name="&gt;&gt;MainContPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="R_ClearAllBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="R_EditBtn.Text" xml:space="preserve">
-    <value>编辑</value>
-  </data>
-  <data name="MainContWrapPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="R_OpenFileBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;R_OpenFileBtn.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="R_SettingBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 47</value>
-  </data>
-  <data name="StartBtn.Text" xml:space="preserve">
-    <value>一键改名</value>
-  </data>
-  <data name="StartBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 752</value>
-  </data>
-  <data name="R_RuleBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 370</value>
-  </data>
-  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;CopyrightText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CopyrightText.Text" xml:space="preserve">
-    <value>(c) qwqaq.com</value>
-  </data>
-  <data name="R_SettingBtn.Text" xml:space="preserve">
-    <value>设置</value>
-  </data>
-  <data name="R_ReMatchBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;MainContWrapPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="TopMenu_File.Text" xml:space="preserve">
-    <value>文件</value>
-  </data>
-  <data name="MainContPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 0</value>
-  </data>
-  <data name="TopMenu_ClearAll.Text" xml:space="preserve">
-    <value>清空列表</value>
-  </data>
-  <data name="MainContPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="R_ClearAllBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 47</value>
-  </data>
-  <data name="&gt;&gt;FileListUi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PreviewCheckBox.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;R_ReMatchBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PreviewCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MainContWrapPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="R_OpenFolderBtn.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PreviewCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;R_SettingBtn.Name" xml:space="preserve">
-    <value>R_SettingBtn</value>
-  </data>
-  <data name="Status.Text" xml:space="preserve">
-    <value>状态</value>
-  </data>
-  <data name="&gt;&gt;Status.Name" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="&gt;&gt;MainContPanel.Parent" xml:space="preserve">
-    <value>MainContWrapPanel</value>
+  <data name="&gt;&gt;menuItem1.Name" xml:space="preserve">
+    <value>menuItem1</value>
   </data>
   <data name="&gt;&gt;menuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="R_EditBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;TopMenu_ReMatch.Name" xml:space="preserve">
+    <value>TopMenu_ReMatch</value>
   </data>
-  <data name="StartBtn.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;TopMenu_ReMatch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;R_SettingBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;TopMenu_ClearAll.Name" xml:space="preserve">
+    <value>TopMenu_ClearAll</value>
   </data>
   <data name="&gt;&gt;TopMenu_ClearAll.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="R_ClearAllBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 3</value>
+  <data name="&gt;&gt;TopMenu_Rule.Name" xml:space="preserve">
+    <value>TopMenu_Rule</value>
   </data>
-  <data name="R_RuleBtn.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;TopMenu_Rule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="R_ClearAllBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
+  <data name="&gt;&gt;TopMenu_Setting.Name" xml:space="preserve">
+    <value>TopMenu_Setting</value>
   </data>
-  <data name="CopyrightText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
+  <data name="&gt;&gt;TopMenu_Setting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="R_RuleBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 47</value>
+  <data name="&gt;&gt;MainToolTip.Name" xml:space="preserve">
+    <value>MainToolTip</value>
   </data>
-  <data name="&gt;&gt;FileListUi.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;MainToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="R_ReMatchBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 47</value>
+  <data name="&gt;&gt;MatchKey.Name" xml:space="preserve">
+    <value>MatchKey</value>
   </data>
-  <data name="TopMenu_Setting.Text" xml:space="preserve">
-    <value>设置</value>
+  <data name="&gt;&gt;MatchKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="R_ReMatchBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 250</value>
+  <data name="&gt;&gt;Video.Name" xml:space="preserve">
+    <value>Video</value>
   </data>
-  <data name="R_ClearAllBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 300</value>
+  <data name="&gt;&gt;Video.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="R_OpenFileBtn.Text" xml:space="preserve">
-    <value>导入文件</value>
-  </data>
-  <data name="StartBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;StartBtn.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;FileListUi.Parent" xml:space="preserve">
-    <value>MainContPanel</value>
-  </data>
-  <data name="&gt;&gt;R_SettingBtn.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;Subtitle.Name" xml:space="preserve">
+    <value>Subtitle</value>
   </data>
   <data name="&gt;&gt;Subtitle.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>72</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="MainToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>184, 8</value>
-  </metadata>
-  <metadata name="TopMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 8</value>
-  </metadata>
+  <data name="&gt;&gt;Status.Name" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;Status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

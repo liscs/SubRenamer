@@ -117,4 +117,50 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CancelBtn.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SaveBtn.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 48</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Select any file
+Then, manually replace the 
+episode number with &lt;X&gt; instead</value>
+  </data>
+  <data name="S_OpenBtn.Text" xml:space="preserve">
+    <value>Select subtitle files</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Subtitle Filename</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 48</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Select any file
+Then, manually replace the 
+episode number with &lt;X&gt; instead</value>
+  </data>
+  <data name="V_OpenBtn.Text" xml:space="preserve">
+    <value>Select video files</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Video Filename</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>511, 48</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>(Wildcard * is supported to indicate arbitrary characters) For example:
+Filename       "[Steins;Gate][11][BDrip][1080P] The Catechism of the Space-Time Boundary.sc.ass"
+Replace with "[Steins;Gate][&lt;X&gt;][BDrip]*.sc.ass"</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Manual Mode Match Setting</value>
+  </data>
 </root>

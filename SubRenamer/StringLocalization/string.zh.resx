@@ -141,6 +141,12 @@
   <data name="input_video_ex" xml:space="preserve">
     <value>输入视频扩展名（以.开头）</value>
   </data>
+  <data name="manul_match_result" xml:space="preserve">
+    <value>匹配结果:</value>
+  </data>
+  <data name="manul_unmatched" xml:space="preserve">
+    <value>未匹配</value>
+  </data>
   <data name="menu_copy_clipboard" xml:space="preserve">
     <value>复制改名命令至剪切板</value>
   </data>

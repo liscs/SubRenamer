@@ -1,5 +1,6 @@
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using SubRenamer.Lib;
+using SubRenamer.StringLocalization;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -91,11 +92,12 @@ namespace SubRenamer.MatchModeEditor
 
         private void MatchRuleUpdated(AppFileType FileType)
         {
+            var rm = _string.ResourceManager;
             if (FileType == AppFileType.Video)
             {
                 V_Begin = null;
                 V_End = null;
-                V_Matched.Text = "未匹配";
+                V_Matched.Text = rm.GetString("manul_unmatched");
                 var tpl = V_Tpl.Text.Trim();
 
                 if (string.IsNullOrWhiteSpace(tpl)) return;
@@ -105,13 +107,13 @@ namespace SubRenamer.MatchModeEditor
 
                 V_Begin = tpl.Substring(0, pos);
                 V_End = tpl.Substring(afterPos, tpl.Length - afterPos);
-                V_Matched.Text = "匹配结果: " + MainForm.GetMatchKeyByBeginEndStr(V_Raw, V_Begin, V_End);
+                V_Matched.Text = rm.GetString("manul_match_result") + MainForm.GetMatchKeyByBeginEndStr(V_Raw, V_Begin, V_End);
             }
             else if (FileType == AppFileType.Sub)
             {
                 S_Begin = null;
                 S_End = null;
-                S_Matched.Text = "未匹配";
+                S_Matched.Text = rm.GetString("manul_unmatched");
                 var tpl = S_Tpl.Text.Trim();
 
                 if (string.IsNullOrWhiteSpace(tpl)) return;
@@ -121,7 +123,7 @@ namespace SubRenamer.MatchModeEditor
 
                 S_Begin = tpl.Substring(0, pos);
                 S_End = tpl.Substring(afterPos, tpl.Length - afterPos);
-                S_Matched.Text = "匹配结果: " + MainForm.GetMatchKeyByBeginEndStr(S_Raw, S_Begin, S_End);
+                S_Matched.Text = rm.GetString("manul_match_result") + MainForm.GetMatchKeyByBeginEndStr(S_Raw, S_Begin, S_End);
             }
         }
     }

@@ -108,16 +108,16 @@
     <Compile Include="Form\RuleEditor.Designer.cs">
       <DependentUpon>RuleEditor.cs</DependentUpon>
     </Compile>
-    <Compile Include="MatchModeEditor\ManuEditor.cs">
+    <Compile Include="Form\MatchModeEditor\ManuEditor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MatchModeEditor\ManuEditor.Designer.cs">
+    <Compile Include="Form\MatchModeEditor\ManuEditor.Designer.cs">
       <DependentUpon>ManuEditor.cs</DependentUpon>
     </Compile>
-    <Compile Include="MatchModeEditor\RegexEditor.cs">
+    <Compile Include="Form\MatchModeEditor\RegexEditor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MatchModeEditor\RegexEditor.Designer.cs">
+    <Compile Include="Form\MatchModeEditor\RegexEditor.Designer.cs">
       <DependentUpon>RegexEditor.cs</DependentUpon>
     </Compile>
     <Compile Include="Settings.cs" />
@@ -163,6 +163,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\MatchModeEditor\ManuEditor.en.resx">
+      <DependentUpon>ManuEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\MatchModeEditor\RegexEditor.en.resx">
+      <DependentUpon>RegexEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -180,10 +187,10 @@
     <EmbeddedResource Include="Form\RuleEditor.resx">
       <DependentUpon>RuleEditor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MatchModeEditor\ManuEditor.resx">
+    <EmbeddedResource Include="Form\MatchModeEditor\ManuEditor.resx">
       <DependentUpon>ManuEditor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MatchModeEditor\RegexEditor.resx">
+    <EmbeddedResource Include="Form\MatchModeEditor\RegexEditor.resx">
       <DependentUpon>RegexEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\SettingForm.en.resx">

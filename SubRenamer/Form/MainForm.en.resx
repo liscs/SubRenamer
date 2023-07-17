@@ -1634,6 +1634,9 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIgQAADNuQAA//8AAA==
 </value>
   </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1500, 903</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Rename subtitle files in batches (SubRenamer)</value>
   </data>

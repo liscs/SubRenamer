@@ -117,4 +117,47 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CancelBtn.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SaveBtn.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="RegexTestLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="RegexTestLink.Text" xml:space="preserve">
+    <value>Regex Test</value>
+  </data>
+  <data name="LearnRegexLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="LearnRegexLink.Text" xml:space="preserve">
+    <value>Learn Regex</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Video files Regular expressions</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Subtitle files Regular expressions</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Matching test</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>subtitle</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>video</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Regex Mode Match Setting</value>
+  </data>
 </root>
