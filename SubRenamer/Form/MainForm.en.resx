@@ -138,6 +138,13 @@
   <data name="TopMenu_Setting.Text" xml:space="preserve">
     <value>Setting</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="MainContPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1462, 831</value>
+  </data>
+  <data name="FileListUi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1267, 823</value>
+  </data>
   <data name="MatchKey.Text" xml:space="preserve">
     <value>MatchKey</value>
   </data>
@@ -150,9 +157,8 @@
   <data name="Status.Text" xml:space="preserve">
     <value>Status</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="FileListUi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1272, 813</value>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 823</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="R_RuleBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -173,11 +179,15 @@
   <data name="R_ReMatchBtn.Text" xml:space="preserve">
     <value>Re-Match</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CopyrightText.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="CopyrightText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="CopyrightText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 671</value>
+    <value>7, 681</value>
   </data>
   <data name="R_RemoveBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -197,11 +207,14 @@
   <data name="R_OpenFolderBtn.Text" xml:space="preserve">
     <value>Import Folders</value>
   </data>
+  <data name="PreviewCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="PreviewCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="PreviewCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 715</value>
+    <value>3, 725</value>
   </data>
   <data name="PreviewCheckBox.Text" xml:space="preserve">
     <value>Rename Preview</value>
@@ -210,7 +223,7 @@
     <value>NoControl</value>
   </data>
   <data name="StartBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 739</value>
+    <value>0, 749</value>
   </data>
   <data name="StartBtn.Text" xml:space="preserve">
     <value>Start Rename</value>
@@ -227,14 +240,8 @@
   <data name="R_SettingBtn.Text" xml:space="preserve">
     <value>Setting</value>
   </data>
-  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 813</value>
-  </data>
-  <data name="MainContPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1467, 821</value>
-  </data>
   <data name="MainContWrapPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1489, 833</value>
+    <value>1484, 843</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1484, 843</value>
@@ -1633,6 +1640,9 @@
         AOaeFwDngxQA2IcYANOAGADMdxgAy1oWAMRqGQDBYxsA//8AAMADAACAAQAAAAEAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIgQAADNuQAA//8AAA==
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>1500, 903</value>

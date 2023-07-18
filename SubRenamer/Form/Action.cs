@@ -234,8 +234,7 @@ namespace SubRenamer
         public static string GetMatchKeyByRegex(string fileName, Regex regex)
         {
             if (regex == null || string.IsNullOrWhiteSpace(fileName)) return null;
-            if (regex.Match(fileName).Groups.Count < 1) return null;
-            return regex.Match(fileName).Groups[0].Value;
+            return regex.Match(fileName).Value;
         }
 
         public static string GetMatchKeyByBeginEndStr(string fileName, string start, string end)

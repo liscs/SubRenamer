@@ -149,6 +149,12 @@
   <data name="V_Tpl.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>921, 243</value>
+  </data>
+  <data name="S_OpenBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
   <data name="V_OpenBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -169,9 +175,6 @@
   </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="S_Tpl.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
     <value>$this</value>
@@ -194,8 +197,8 @@
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="S_Tpl.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;S_OpenBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 48</value>
@@ -211,9 +214,6 @@
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 7.714286pt</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;V_Matched.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -239,8 +239,8 @@
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 7.714286pt</value>
   </data>
-  <data name="S_Matched.Location" type="System.Drawing.Point, System.Drawing">
-    <value>727, 186</value>
+  <data name="S_Tpl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="S_Tpl.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 43</value>
@@ -293,9 +293,6 @@
   <data name="groupBox3.Text" xml:space="preserve">
     <value>字幕 文件名</value>
   </data>
-  <data name="V_Matched.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 23</value>
-  </data>
   <data name="&gt;&gt;S_Tpl.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
@@ -308,20 +305,23 @@
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>726, 98</value>
   </data>
+  <data name="S_Matched.Location" type="System.Drawing.Point, System.Drawing">
+    <value>727, 186</value>
+  </data>
   <data name="&gt;&gt;S_OpenBtn.Name" xml:space="preserve">
     <value>S_OpenBtn</value>
   </data>
   <data name="&gt;&gt;S_Matched.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
   <data name="CancelBtn.Text" xml:space="preserve">
     <value>取消</value>
   </data>
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 7.714286pt</value>
-  </data>
-  <data name="&gt;&gt;S_OpenBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 9pt</value>
@@ -357,8 +357,8 @@
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>726, 95</value>
+  <data name="S_Tpl.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>(支持通配符 *，表示任意字符) 举个栗子：
@@ -424,8 +424,8 @@
   <data name="&gt;&gt;V_OpenBtn.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 518</value>
@@ -433,8 +433,8 @@
   <data name="&gt;&gt;V_Matched.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="S_OpenBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>726, 95</value>
   </data>
   <data name="S_Matched.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 23</value>
@@ -460,14 +460,14 @@
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>921, 243</value>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;CancelBtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="V_Matched.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 23</value>
   </data>
   <data name="&gt;&gt;V_Tpl.ZOrder" xml:space="preserve">
     <value>3</value>

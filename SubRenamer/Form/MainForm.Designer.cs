@@ -274,9 +274,9 @@
             // 
             // MainContWrapPanel
             // 
-            resources.ApplyResources(this.MainContWrapPanel, "MainContWrapPanel");
             this.MainContWrapPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MainContWrapPanel.Controls.Add(this.MainContPanel);
+            resources.ApplyResources(this.MainContWrapPanel, "MainContWrapPanel");
             this.MainContWrapPanel.Name = "MainContWrapPanel";
             // 
             // MainForm

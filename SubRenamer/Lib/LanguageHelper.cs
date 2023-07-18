@@ -66,6 +66,8 @@ public class LanguageHelper
                 }
             }
         }
+
+
         if (control is ComboBox)
         {
             var combo = (ComboBox)control;
@@ -93,7 +95,8 @@ public class LanguageHelper
         }
         else
         {
-            resources.ApplyResources(control, control.Name);
+            if (!(control is Panel))
+                resources.ApplyResources(control, control.Name);
             foreach (Control c in control.Controls)
             {
                 resources.ApplyResources(c, c.Name);

@@ -190,7 +190,7 @@
     <value>0, 0, 5, 0</value>
   </data>
   <data name="FileListUi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1272, 826</value>
+    <value>1267, 823</value>
   </data>
   <data name="FileListUi.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -310,7 +310,7 @@
     <value>微软雅黑, 8pt</value>
   </data>
   <data name="CopyrightText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 684</value>
+    <value>7, 681</value>
   </data>
   <data name="CopyrightText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 10, 7, 10</value>
@@ -433,7 +433,7 @@
     <value>Bottom</value>
   </data>
   <data name="PreviewCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 728</value>
+    <value>3, 725</value>
   </data>
   <data name="PreviewCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 21</value>
@@ -460,7 +460,7 @@
     <value>微软雅黑, 9pt</value>
   </data>
   <data name="StartBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 752</value>
+    <value>0, 749</value>
   </data>
   <data name="StartBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -550,7 +550,7 @@
     <value>Fill</value>
   </data>
   <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1277, 8</value>
+    <value>1272, 8</value>
   </data>
   <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -559,7 +559,7 @@
     <value>15</value>
   </data>
   <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 826</value>
+    <value>190, 823</value>
   </data>
   <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -577,7 +577,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="R_RuleBtn" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_ClearAllBtn" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_ReMatchBtn" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CopyrightText" Row="12" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_RemoveBtn" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_EditBtn" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_OpenFolderBtn" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PreviewCheckBox" Row="13" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="StartBtn" Row="14" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_OpenFileBtn" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_SettingBtn" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,50,Absolute,50,Absolute,30,Absolute,50,Absolute,50,Absolute,20,Absolute,50,Absolute,50,Absolute,20,Absolute,50,Absolute,50,Percent,63.11475,Percent,36.88525,Absolute,42,Absolute,73,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="R_RuleBtn" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_ClearAllBtn" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_ReMatchBtn" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CopyrightText" Row="12" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_RemoveBtn" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_EditBtn" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_OpenFolderBtn" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PreviewCheckBox" Row="13" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="StartBtn" Row="14" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_OpenFileBtn" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="R_SettingBtn" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,50,Absolute,50,Absolute,30,Absolute,50,Absolute,50,Absolute,20,Absolute,50,Absolute,50,Absolute,20,Absolute,50,Absolute,50,Percent,63.11475,Percent,36.88525,Absolute,42,Absolute,73" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="MainContPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -592,7 +592,7 @@
     <value>2</value>
   </data>
   <data name="MainContPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1467, 834</value>
+    <value>1462, 831</value>
   </data>
   <data name="MainContPanel.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -612,11 +612,11 @@
   <data name="MainContPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="FileListUi" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,190" /&gt;&lt;Rows Styles="Absolute,8,Percent,100,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="MainContWrapPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="MainContWrapPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="MainContWrapPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 0</value>
+    <value>0, 0</value>
   </data>
   <data name="MainContWrapPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -625,7 +625,7 @@
     <value>10, 0, 10, 10</value>
   </data>
   <data name="MainContWrapPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1489, 846</value>
+    <value>1484, 843</value>
   </data>
   <data name="MainContWrapPanel.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -652,7 +652,7 @@
     <value>7, 17</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1484, 865</value>
+    <value>1484, 843</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 9pt</value>
@@ -2056,7 +2056,7 @@
     <value>7, 7, 7, 7</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1500, 904</value>
+    <value>1500, 903</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
