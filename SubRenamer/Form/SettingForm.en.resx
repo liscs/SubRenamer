@@ -181,14 +181,17 @@
   <data name="RenameVideo.Text" xml:space="preserve">
     <value>Modify video filename (according to subtitles)</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 226</value>
-  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>328, 16</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Check to modify the video file name according to the subtitle</value>
+  </data>
+  <data name="listBoxVideoExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 174</value>
+  </data>
+  <data name="listBoxSubExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 174</value>
   </data>
   <data name="labelVideoExtension.Size" type="System.Drawing.Size, System.Drawing">
     <value>101, 17</value>
@@ -209,7 +212,10 @@
     <value>English</value>
   </data>
   <data name="comboBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 15</value>
+    <value>254, 15</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 18</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 17</value>

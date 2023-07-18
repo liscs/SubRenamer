@@ -468,7 +468,7 @@
     <value>423, 61</value>
   </data>
   <data name="listBoxVideoExtension.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 208</value>
+    <value>120, 174</value>
   </data>
   <data name="listBoxVideoExtension.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -492,7 +492,7 @@
     <value>549, 61</value>
   </data>
   <data name="listBoxSubExtension.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 208</value>
+    <value>120, 174</value>
   </data>
   <data name="listBoxSubExtension.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -670,7 +670,7 @@
     <value>英文</value>
   </data>
   <data name="comboBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 17</value>
+    <value>254, 15</value>
   </data>
   <data name="comboBoxLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 25</value>
@@ -694,7 +694,7 @@
     <value>True</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 20</value>
+    <value>164, 18</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>

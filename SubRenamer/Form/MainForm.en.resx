@@ -138,13 +138,6 @@
   <data name="TopMenu_Setting.Text" xml:space="preserve">
     <value>Setting</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="MainContPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1462, 831</value>
-  </data>
-  <data name="FileListUi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1267, 823</value>
-  </data>
   <data name="MatchKey.Text" xml:space="preserve">
     <value>MatchKey</value>
   </data>
@@ -157,8 +150,8 @@
   <data name="Status.Text" xml:space="preserve">
     <value>Status</value>
   </data>
-  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 823</value>
+  <data name="FileListUi.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="R_RuleBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -167,17 +160,26 @@
   <data name="R_RuleBtn.Text" xml:space="preserve">
     <value>Rule</value>
   </data>
+  <data name="R_RuleBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="R_ClearAllBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="R_ClearAllBtn.Text" xml:space="preserve">
     <value>Clear List</value>
   </data>
+  <data name="R_ClearAllBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="R_ReMatchBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="R_ReMatchBtn.Text" xml:space="preserve">
     <value>Re-Match</value>
+  </data>
+  <data name="R_ReMatchBtn.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CopyrightText.AutoSize" type="System.Boolean, mscorlib">
@@ -186,8 +188,8 @@
   <data name="CopyrightText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="CopyrightText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 681</value>
+  <data name="CopyrightText.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="R_RemoveBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -195,11 +197,17 @@
   <data name="R_RemoveBtn.Text" xml:space="preserve">
     <value>Delete</value>
   </data>
+  <data name="R_RemoveBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="R_EditBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="R_EditBtn.Text" xml:space="preserve">
     <value>Edit</value>
+  </data>
+  <data name="R_EditBtn.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="R_OpenFolderBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -207,26 +215,29 @@
   <data name="R_OpenFolderBtn.Text" xml:space="preserve">
     <value>Import Folders</value>
   </data>
+  <data name="R_OpenFolderBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="PreviewCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="PreviewCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="PreviewCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 725</value>
-  </data>
   <data name="PreviewCheckBox.Text" xml:space="preserve">
     <value>Rename Preview</value>
+  </data>
+  <data name="PreviewCheckBox.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="StartBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="StartBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 749</value>
-  </data>
   <data name="StartBtn.Text" xml:space="preserve">
     <value>Start Rename</value>
+  </data>
+  <data name="StartBtn.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="R_OpenFileBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -234,18 +245,28 @@
   <data name="R_OpenFileBtn.Text" xml:space="preserve">
     <value>Import Files</value>
   </data>
+  <data name="R_OpenFileBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="R_SettingBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="R_SettingBtn.Text" xml:space="preserve">
     <value>Setting</value>
   </data>
-  <data name="MainContWrapPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1484, 843</value>
+  <data name="R_SettingBtn.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1484, 843</value>
+  <data name="tableLayoutPanel2.ToolTip" xml:space="preserve">
+    <value />
   </data>
+  <data name="MainContPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainContWrapPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAA0AICAQAAEABADoAgAA1gAAABAQEAABAAQAKAEAAL4DAAAwMAAAAQAIAKgOAADmBAAAICAAAAEA
@@ -1641,13 +1662,10 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIgQAADNuQAA//8AAA==
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1500, 903</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Rename subtitle files in batches (SubRenamer)</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>
